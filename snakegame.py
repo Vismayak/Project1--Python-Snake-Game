@@ -143,13 +143,13 @@ while True: #infinite loop
 	# 	gameover()
 
 	#else
-	if snakePos[0] > 720 :
-		snakePos[0] = 0 #+ snakePos[0] - 720
-	elif snakePos[1] > 510:
-		snakePos[1] = 0 #+ snakePos[1] - 510
-	elif snakePos[0] < 0:
-		snakePos[0] = 720 #+ snakePos[0]
-	elif snakePos[1] < 0:
+	if snakePos[0] > 710 :
+		snakePos[0] = 10 #+ snakePos[0] - 720
+	elif snakePos[1] > 500:
+		snakePos[1] = 10 #+ snakePos[1] - 510
+	elif snakePos[0] < 10:
+		snakePos[0] = 710 #+ snakePos[0]
+	elif snakePos[1] < 10:
 		snakePos[1] = 510 #+ snakePos[0]
 	#for loop to check if the snake hits itself 
 	for head in snakeBody[1:]:
