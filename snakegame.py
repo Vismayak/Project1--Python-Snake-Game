@@ -117,12 +117,12 @@ while True: #infinite loop
 		snakePos[1] = snakePos[1] + 10	
 
 	# in charge of snake body movements
-
- 	snakeBody.insert(0,list(snakePos)) #inserts a block to the snake body
- 	#the logic is a two step algorithm, it checks if the head passes through a food block if so it keeps that inserted block else it pops it
- 	if(snakePos[0] == foodPos[0] and snakePos[1] == foodPos[1] ):
- 		score = score+1;
- 		speed = speed +1;
+	snakeBody.insert(0,list(snakePos))
+ #inserts a block to the snake body
+ #the logic is a two step algorithm, it checks if the head passes through a food block if so it keeps that inserted block else it pops it
+	if(snakePos[0] == foodPos[0] and snakePos[1] == foodPos[1] ):
+		score = score+1;
+		speed = speed +1;
 		foodSpawn = False;
 	else:
 		snakeBody.pop()
