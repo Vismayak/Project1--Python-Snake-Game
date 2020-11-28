@@ -7,5 +7,4 @@ Packages required
 pip3 install pygame
 ```
 
-![alt text](https://github.com/Vismayak/Project1--Python-Snake-Game/blob/master/img.jpg?raw=true
-
+!![Screenshot](img.jpg)
